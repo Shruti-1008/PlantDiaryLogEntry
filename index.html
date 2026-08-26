@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plant Diary 🌿</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/plants.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            🌿 Plant Diary
+        </a>
+
+        <nav>
+            <a class="active" href="index.html">Home</a>
+            <a href="pages/plants.html">My Plants</a>
+            <a href="pages/journal.html">Journal</a>
+            <a href="pages/add-plant.html" class="add-link">
+                + Add Plant
+            </a>
+        </nav>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="hero">
+
+            <div>
+                <p class="eyebrow">YOUR LITTLE GREEN SPACE</p>
+
+                <h1>
+                    Good morning,<br>
+                    plant parent 🌱
+                </h1>
+
+                <p class="hero-text">
+                    Keep track of your plants, care routines,
+                    and all their little milestones.
+                </p>
+
+                <a href="pages/add-plant.html" class="primary-btn">
+                    + Add a Plant
+                </a>
+            </div>
+
+            <div class="hero-plant">
+                🌿
+            </div>
+
+        </section>
+
+
+        <!-- Statistics -->
+
+        <section class="stats">
+
+            <div class="stat-card">
+                <span>🌱</span>
+                <div>
+                    <p>Total Plants</p>
+                    <h2 id="plantCount">0</h2>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <span>💧</span>
+                <div>
+                    <p>Need Water</p>
+                    <h2 id="waterCount">0</h2>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <span>🌿</span>
+                <div>
+                    <p>Healthy Plants</p>
+                    <h2 id="healthyCount">0</h2>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Plants -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">YOUR COLLECTION</p>
+                    <h2>My Plants</h2>
+                </div>
+
+                <a href="pages/plants.html">
+                    View all →
+                </a>
+
+            </div>
+
+
+            <div id="plantContainer" class="plant-grid">
+
+                <!-- JavaScript will add plants here -->
+
+            </div>
+
+        </section>
+
+
+        <!-- Journal -->
+
+        <section class="journal-preview">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">RECENT MEMORIES</p>
+                    <h2>Plant Journal</h2>
+                </div>
+
+                <a href="pages/journal.html">
+                    View journal →
+                </a>
+
+            </div>
+
+
+            <div id="journalPreview">
+
+                <!-- JavaScript will add entries -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        Made with 🌱 & love • Plant Diary
+    </footer>
+
+
+    <script src="js/storage.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
