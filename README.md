@@ -55,7 +55,8 @@ plant-diary/
 └── README.md
 ```
 
-🚀 How to Run
+## 🚀 How to Run:
+
 Clone the repository.
 Open the project in VS Code.
 Open index.html.
@@ -67,7 +68,8 @@ Plant information and journal entries are stored locally using the browser's loc
 
 No database or backend is required.
 
-🔮 Future Improvements
+## 🔮 Future Improvements:
+
 📸 Upload real plant images
 💧 Automatic watering reminders
 📅 Calendar-based care tracker
