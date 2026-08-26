@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Add Plant 🌱</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+</head>
+
+
+<body>
+
+<header class="navbar">
+
+    <a href="../index.html" class="logo">
+        🌿 Plant Diary
+    </a>
+
+    <nav>
+
+        <a href="../index.html">
+            Home
+        </a>
+
+        <a href="plants.html">
+            My Plants
+        </a>
+
+        <a href="journal.html">
+            Journal
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="form-container">
+
+    <div class="form-header">
+
+        <p class="eyebrow">
+            NEW PLANT
+        </p>
+
+        <h1>
+            Add a new plant 🌱
+        </h1>
+
+        <p>
+            Tell us a little about your new green friend.
+        </p>
+
+    </div>
+
+
+    <form id="plantForm" class="plant-form">
+
+        <label>
+            Plant Name
+        </label>
+
+        <input
+            type="text"
+            id="plantName"
+            placeholder="e.g. Monstera"
+            required
+        >
+
+
+        <label>
+            Plant Type
+        </label>
+
+        <input
+            type="text"
+            id="plantType"
+            placeholder="e.g. Monstera deliciosa"
+            required
+        >
+
+
+        <label>
+            Emoji
+        </label>
+
+        <select id="plantEmoji">
+
+            <option value="🌿">🌿 Leafy</option>
+            <option value="🌱">🌱 Sprout</option>
+            <option value="🪴">🪴 Potted</option>
+            <option value="🌵">🌵 Cactus</option>
+            <option value="🌻">🌻 Flower</option>
+
+        </select>
+
+
+        <label>
+            Watering
+        </label>
+
+        <select id="watering">
+
+            <option value="Every 3 days">
+                Every 3 days
+            </option>
+
+            <option value="Every 5 days">
+                Every 5 days
+            </option>
+
+            <option value="Every 7 days">
+                Every 7 days
+            </option>
+
+            <option value="Every 14 days">
+                Every 14 days
+            </option>
+
+        </select>
+
+
+        <label>
+            Light
+        </label>
+
+        <select id="light">
+
+            <option>
+                Bright indirect light
+            </option>
+
+            <option>
+                Direct sunlight
+            </option>
+
+            <option>
+                Low light
+            </option>
+
+            <option>
+                Partial shade
+            </option>
+
+        </select>
+
+
+        <label>
+            Notes
+        </label>
+
+        <textarea
+            id="notes"
+            placeholder="Anything special about this plant?"
+        ></textarea>
+
+
+        <button
+            type="submit"
+            class="primary-btn submit-btn"
+        >
+            🌱 Add Plant
+        </button>
+
+    </form>
+
+</main>
+
+
+<script src="../js/storage.js"></script>
+
+<script>
+
+const form =
+    document.getElementById("plantForm");
+
+
+form.addEventListener(
+    "submit",
+    function(event) {
+
+        event.preventDefault();
+
+
+        const plant = {
+
+            id: Date.now(),
+
+            name:
+                document.getElementById("plantName").value,
+
+            type:
+                document.getElementById("plantType").value,
+
+            emoji:
+                document.getElementById("plantEmoji").value,
+
+            watering:
+                document.getElementById("watering").value,
+
+            light:
+                document.getElementById("light").value,
+
+            notes:
+                document.getElementById("notes").value
+
+        };
+
+
+        savePlant(plant);
+
+
+        alert("Plant added successfully! 🌱");
+
+
+        window.location.href =
+            "../index.html";
+
+    }
+);
+
+</script>
+
+</body>
+
+</html>

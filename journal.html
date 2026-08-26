@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Plant Journal 📖</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+</head>
+
+
+<body>
+
+<header class="navbar">
+
+    <a href="../index.html" class="logo">
+        🌿 Plant Diary
+    </a>
+
+    <nav>
+
+        <a href="../index.html">
+            Home
+        </a>
+
+        <a href="plants.html">
+            My Plants
+        </a>
+
+        <a class="active" href="journal.html">
+            Journal
+        </a>
+
+        <a href="add-plant.html" class="add-link">
+            + Add Plant
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="container">
+
+    <section class="page-header">
+
+        <div>
+
+            <p class="eyebrow">
+                LITTLE MOMENTS
+            </p>
+
+            <h1>
+                Plant Journal 📖
+            </h1>
+
+            <p>
+                Keep track of your plants' little milestones.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="journal-layout">
+
+
+        <!-- Add Entry -->
+
+        <div class="journal-form">
+
+            <h2>New Entry 🌱</h2>
+
+            <form id="journalForm">
+
+                <label>
+                    Plant
+                </label>
+
+                <input
+                    type="text"
+                    id="journalPlant"
+                    placeholder="e.g. Monstera"
+                    required
+                >
+
+
+                <label>
+                    What happened?
+                </label>
+
+                <textarea
+                    id="journalText"
+                    placeholder="A new leaf appeared today..."
+                    required
+                ></textarea>
+
+
+                <button
+                    class="primary-btn"
+                    type="submit"
+                >
+                    Add Entry
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <!-- Entries -->
+
+        <div>
+
+            <h2 class="journal-title">
+                Recent Entries
+            </h2>
+
+            <div id="journalEntries">
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+</main>
+
+
+<script src="../js/storage.js"></script>
+<script src="../js/journal.js"></script>
+
+</body>
+
+</html>
