@@ -1,0 +1,191 @@
+.form-container {
+
+    width: 650px;
+
+    max-width: 90%;
+
+    margin: auto;
+
+    padding: 60px 0;
+}
+
+
+.form-header {
+
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+
+.form-header h1 {
+
+    font-family: Georgia, serif;
+
+    color: #29452f;
+
+    font-size: 40px;
+
+    margin-bottom: 10px;
+}
+
+
+.form-header p:last-child {
+
+    color: #758175;
+}
+
+
+.plant-form,
+.journal-form {
+
+    background:
+        rgba(255,255,255,0.8);
+
+    border:
+        1px solid #dfe7d8;
+
+    border-radius: 25px;
+
+    padding: 30px;
+
+    box-shadow:
+        0 15px 40px
+        rgba(63,99,70,0.07);
+}
+
+
+label {
+
+    display: block;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    color: #526154;
+
+    margin:
+        18px 0 8px;
+}
+
+
+input,
+select,
+textarea {
+
+    width: 100%;
+
+    padding: 13px;
+
+    border:
+        1px solid #d8e0d5;
+
+    border-radius: 10px;
+
+    background: #fafcf8;
+
+    outline: none;
+
+    font-size: 14px;
+
+    color: #334238;
+}
+
+
+textarea {
+
+    min-height: 120px;
+
+    resize: vertical;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+
+    border-color: #6f956f;
+
+    box-shadow:
+        0 0 0 3px
+        rgba(84,122,89,0.1);
+}
+
+
+.submit-btn {
+
+    width: 100%;
+
+    margin-top: 25px;
+}
+
+
+.journal-layout {
+
+    display: grid;
+
+    grid-template-columns: 350px 1fr;
+
+    gap: 30px;
+
+    align-items: start;
+}
+
+
+.journal-form h2 {
+
+    font-family: Georgia, serif;
+
+    color: #31583a;
+
+    margin-bottom: 20px;
+}
+
+
+.journal-title {
+
+    font-family: Georgia, serif;
+
+    color: #29452f;
+
+    margin-bottom: 20px;
+}
+
+
+.journal-entry {
+
+    background: white;
+
+    border:
+        1px solid #dfe7d8;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+}
+
+
+.journal-entry strong {
+
+    color: #31583a;
+}
+
+
+.journal-entry p {
+
+    color: #687568;
+
+    line-height: 1.6;
+
+    margin:
+        10px 0;
+}
+
+
+.journal-entry small {
+
+    color: #98a198;
+}

@@ -1,0 +1,158 @@
+.plant-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+.plant-card {
+
+    background:
+        rgba(255,255,255,0.8);
+
+    border:
+        1px solid #dfe7d8;
+
+    border-radius: 22px;
+
+    padding: 20px;
+
+    transition: 0.25s;
+}
+
+
+.plant-card:hover {
+
+    transform:
+        translateY(-5px);
+
+    box-shadow:
+        0 15px 30px
+        rgba(63,99,70,0.1);
+}
+
+
+.plant-image {
+
+    height: 180px;
+
+    border-radius: 17px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #dcebd6,
+            #f0ead4
+        );
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 90px;
+
+    margin-bottom: 18px;
+}
+
+
+.plant-card h3 {
+
+    color: #31583a;
+
+    font-size: 21px;
+
+    margin-bottom: 5px;
+}
+
+
+.plant-type {
+
+    color: #899589;
+
+    font-size: 13px;
+
+    margin-bottom: 18px;
+}
+
+
+.plant-details {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+    color: #647064;
+
+    font-size: 13px;
+}
+
+
+.page-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: end;
+
+    margin-bottom: 35px;
+}
+
+
+.page-header h1 {
+
+    font-family: Georgia, serif;
+
+    font-size: 42px;
+
+    color: #29452f;
+
+    margin-bottom: 8px;
+}
+
+
+.page-header > div > p:last-child {
+
+    color: #758175;
+}
+
+
+.search {
+
+    background: white;
+
+    border:
+        1px solid #dfe7d8;
+
+    border-radius: 15px;
+
+    padding: 14px 18px;
+
+    margin-bottom: 25px;
+
+    display: flex;
+
+    gap: 10px;
+
+    align-items: center;
+}
+
+
+.search input {
+
+    border: none;
+
+    outline: none;
+
+    flex: 1;
+
+    font-size: 14px;
+}
