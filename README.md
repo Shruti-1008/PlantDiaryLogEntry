@@ -23,3 +23,34 @@ Plant Diary allows users to keep track of their plants, watering routines, care 
 - CSS3
 - JavaScript
 - LocalStorage
+
+## 📁 Project Structure
+
+```text
+plant-diary/
+│
+├── index.html
+│
+├── pages/
+│   ├── plants.html
+│   ├── add-plant.html
+│   └── journal.html
+│
+├── css/
+│   ├── style.css
+│   ├── plants.css
+│   ├── form.css
+│   └── responsive.css
+│
+├── js/
+│   ├── app.js
+│   ├── plants.js
+│   ├── journal.js
+│   └── storage.js
+│
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+└── README.md
+
