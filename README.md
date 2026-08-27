@@ -4,7 +4,7 @@ Aesthetic plant-care and journaling web application built with HTML, CSS, and Ja
 
 Plant Diary allows users to keep track of their plants, watering routines, care information, and personal plant-growth memories.
 
-## ✨ Features riughoihfb
+## ✨ Features 
 
 - 🌱 Add plants
 - 🪴 Store plant information
@@ -21,7 +21,7 @@ Plant Diary allows users to keep track of their plants, watering routines, care 
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript iduhvbiv
 - LocalStorage
 
 ## 📁 Project Structure
