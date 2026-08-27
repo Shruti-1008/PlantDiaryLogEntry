@@ -1,4 +1,4 @@
-# 🌿 Plant Diary !
+# 🌿 Plant Diary 
 
 Aesthetic plant-care and journaling web application built with HTML, CSS, and JavaScript.
 
