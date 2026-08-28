@@ -54,8 +54,7 @@ plant-diary/
 │
 └── README.md
 ```
-Purpose:
-monitor plant growth 
+
 
 ## 🚀 How to Run:
 
