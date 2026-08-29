@@ -16,6 +16,12 @@ Plant Diary allows users to keep track of their plants, watering routines, care 
 - 💾 Store data using localStorage
 - 📱 Responsive design
 - 🌿 Aesthetic nature-inspired interface
+- 
+## PURPOSE:
+
+obfoi
+very useful reminder
+
 
 ## 🛠️ Technologies:
 
