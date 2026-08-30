@@ -7,7 +7,6 @@ Plant Diary allows users to keep track of their plants, watering routines, care 
 ## ✨ Features:
 
 - 🌱 Add plants
-- oihoidociboi
 - 🪴 Store plant information
 - 💧 Track watering schedules
 - ☀️ Track lighting requirements
@@ -17,8 +16,8 @@ Plant Diary allows users to keep track of their plants, watering routines, care 
 - 💾 Store data using localStorage
 - 📱 Responsive design
 - 🌿 Aesthetic nature-inspired interface
-  cudhboic
-## 🛠️ Technologies:
+
+## 🛠️ Technologies:-
 
 - HTML5
 - CSS3
