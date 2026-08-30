@@ -63,7 +63,7 @@ Open index.html.
 Run using Live Server.
 Add your first plant 🌱.
 
-## 💾 Data Storage
+## 💾 Data Storage:-
 
 Plant information and journal entries are stored locally using the browser's localStorage.
 
@@ -81,6 +81,7 @@ No database or backend is required.
 ✏️ Edit plant information
 🗑️ Delete plants
 🔔 Care notifications
-🎯 Purpose
+
+## 🎯 Purpose:-
 
 This project was created to practice front-end development, JavaScript DOM manipulation, localStorage, responsive design, and multi-page website structure.
