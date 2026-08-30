@@ -1,10 +1,9 @@
 # 🌿 Plant Diary 
 
 Aesthetic plant-care and journaling web application built with HTML, CSS, and JavaScript.
-
 Plant Diary allows users to keep track of their plants, watering routines, care information, and personal plant-growth memories.
 
-## ✨ Features:
+## ✨ Features:-
 
 - 🌱 Add plants
 - 🪴 Store plant information
@@ -24,7 +23,7 @@ Plant Diary allows users to keep track of their plants, watering routines, care 
 - JavaScript
 - LocalStorage
 
-## 📁 Project Structure:
+## 📁 Project Structure:-
 
 ```text
 plant-diary/
@@ -56,20 +55,22 @@ plant-diary/
 ```
 
 
-## 🚀 How to Run:
+## 🚀 How to Run:-
 
 Clone the repository.
 Open the project in VS Code.
 Open index.html.
 Run using Live Server.
 Add your first plant 🌱.
-💾 Data Storage
+
+## 💾 Data Storage
 
 Plant information and journal entries are stored locally using the browser's localStorage.
 
 No database or backend is required.
 
-## 🔮 Future Improvements:
+
+## 🔮 Future Improvements:-
 
 📸 Upload real plant images
 💧 Automatic watering reminders
